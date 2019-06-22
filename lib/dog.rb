@@ -6,5 +6,13 @@ class Dog
     @name = name
     @@all << self
   end
+  
+  def self.all
+    @@all
+  end
+  
+  def self.clear_all
+    array.clear
+    
 end
     
